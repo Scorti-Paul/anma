@@ -44,7 +44,7 @@ const Showcase = () => {
         <a data-fancybox="gallery" href="/assets/images/img10.jpg">
           <img
             alt=""
-            src="/assets/images/img10.jpg"
+            src="/assets/images/outside2.jpg"
             className="rounded-br-xl md:rounded-none"
           />
         </a>

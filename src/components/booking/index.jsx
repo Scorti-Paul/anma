@@ -142,7 +142,7 @@ const Booking = () => {
       </aside>
       <div className="mt-6">
         <img
-          src="/assets/images/outside3.jpg"
+          src="/assets/images/img11.jpg"
           width={375}
           className="rounded-xl"
           alt=""

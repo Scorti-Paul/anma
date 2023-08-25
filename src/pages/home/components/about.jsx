@@ -2,6 +2,13 @@ import React from "react";
 import { StarIcon } from "@heroicons/react/24/solid";
 import { LuBedSingle } from "react-icons/lu";
 import Booking from "../../../components/booking";
+import {
+  PuzzlePieceIcon,
+  HomeIcon,
+  CakeIcon,
+  BuildingStorefrontIcon,
+  HomeModernIcon,
+} from "@heroicons/react/24/outline";
 
 const About = () => {
   return (
@@ -29,28 +36,31 @@ const About = () => {
             About hotel
           </h2>
           <p className="text-gray-500 text-base md:text-lg">
-            Whether you’re a tourist or traveling on business, Akpe Na Mawu
-            Hospitality Centre is a great choice for accommodation when visiting
-            Keta in the Volta Region. The excitement of the city center is only
-            away. With its convenient location, the property offers easy access
-            to the city’s must-see destinations.{" "}
+            Whether you’re a tourist, going on a business trip or traveling to
+            Keta and it’s environ towns in the Volta Region for any occasion,
+            Akpe Na Mawu Hospitality Centre is a great choice for accommodation.
+            The excitement of the city center is only away, with its convenient
+            location, the property offers easy access to the city’s must-see
+            destinations.
           </p>
           <p className="text-gray-500 text-base md:text-lg my-3">
             {" "}
-            Akpe Na Mawu Hospitality Centre is renowned for its quality services
-            , and we lives up to expectations. Facilities like free Wi-Fi in all
-            rooms, 24-hour security, daily housekeeping, laundromat, taxi
-            service are readily available for the convenience of each guest.
+            Akpe Na Mawu Hospitality Centre is known for its quality services,
+            and we live up to expectations. Facilities like free Wi-Fi in all
+            rooms, 24-hour security, daily housekeeping, laundromat, a summer
+            hat to relax under and taxi services are readily available for the
+            convenience of each guest.
           </p>
           <p className="text-gray-500 text-base md:text-lg">
             {" "}
             Experience high quality room facilities during your stay here. Some
-            rooms include humidifier, complimentary tea, towels, clothes rack,
-            slippers to help guests recharge after a long day. The property’s
-            host of recreational offerings ensures you have plenty to do during
-            your stay. Akpe Na Mawu Hospitality Centre is a smart choice for
-            travelers to Osaka, offering a relaxed and hassle-free stay every
-            time.
+            rooms include air conditions, whilst all rooms provide television,
+            fans, complimentary tea, towels, soaps and clothes rack and hot
+            water to help guests recharge after a long day. The property also
+            provides hosts of recreational offerings like oware, ludo, etc to
+            ensure guests have plenty to do during guest’s stay. Akpe Na Mawu
+            Hospitality Centre is a smart choice for travelers to Volta region,
+            offering a relaxed and hassle-free stay every time.
           </p>
 
           <div className="h-0.5 w-full bg-gray-100 my-8"></div>
@@ -68,44 +78,42 @@ const About = () => {
               <p className="text-gray-500 text-sm md:text-base">4 bedrooms</p>
             </div>
             <div className="flex items-center gap-2">
-              <LuBedSingle
+              <HomeModernIcon
                 size={32}
                 strokeWidth={1}
-                className="text-gray-500"
+                className="text-gray-500 w-8"
               />
               <p className="text-gray-500 text-sm md:text-base">Laundry room</p>
             </div>
             <div className="flex items-center gap-2">
-              <LuBedSingle
+              <CakeIcon
                 size={32}
                 strokeWidth={1}
-                className="text-gray-500"
+                className="text-gray-500 w-8"
               />
               <p className="text-gray-500 text-sm md:text-base">Dining</p>
             </div>
             <div className="flex items-center gap-2">
-              <LuBedSingle
+              <BuildingStorefrontIcon
                 size={32}
                 strokeWidth={1}
-                className="text-gray-500"
+                className="text-gray-500 w-8"
               />
               <p className="text-gray-500 text-sm md:text-base">Kitchen</p>
             </div>
             <div className="flex items-center gap-2">
-              <LuBedSingle
-                size={32}
+              <PuzzlePieceIcon
+                size={22}
                 strokeWidth={1}
-                className="text-gray-500"
+                className="text-gray-500 w-8"
               />
-              <p className="text-gray-500 text-sm md:text-base">Kitchen</p>
+              <p className="text-gray-500 text-sm md:text-base">
+                Mini Game Centre
+              </p>
             </div>
             <div className="flex items-center gap-2">
-              <LuBedSingle
-                size={32}
-                strokeWidth={1}
-                className="text-gray-500"
-              />
-              <p className="text-gray-500 text-sm md:text-base">Kitchen</p>
+              <HomeIcon strokeWidth={1} className="text-gray-500 w-8" />
+              <p className="text-gray-500 text-sm md:text-base">Summer hat</p>
             </div>
           </div>
 

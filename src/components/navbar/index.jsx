@@ -49,9 +49,9 @@ const Navbar = () => {
             <p className="flex items-center gap-2 mt-3 text-white">
               Home{" "}
               <span className="inline-block p-1 bg-white rounded-full"></span>{" "}
-              Volta Region{" "}
-              <span className="inline-block p-1 bg-white rounded-full"></span>{" "}
               Keta
+              <span className="inline-block p-1 bg-white rounded-full"></span>{" "}
+              Volta Region
             </p>
           </div>{" "}
         </div>
