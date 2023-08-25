@@ -35,7 +35,9 @@ const Booking = () => {
             <div className="flex justify-between items-center my-6 transition-all duration-300">
               <p className="text-gray-500 text-sm">
                 From{" "}
-                <strong className="text-lg text-gray-700">Ghc7283.00</strong>{" "}
+                <strong className="text-base md:text-lg text-gray-700">
+                  Ghc7283.00
+                </strong>{" "}
                 /night
               </p>
               <p className="flex items-center gap-1">
@@ -152,7 +154,7 @@ const Booking = () => {
           // width="375"
           height="320"
           // style="border:0;"
-          className="rounded-xl w-80 md:w-96"
+          className="rounded-xl w-full"
           allowFullScreen=""
           title="keta - volta"
           loading="lazy"

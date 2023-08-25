@@ -29,19 +29,18 @@ const About = () => {
             About hotel
           </h2>
           <p className="text-gray-500 text-base md:text-lg">
-            Whether you’re a tourist or traveling on business, Hotel WBF
-            Kitasemba WEST is a great choice for accommodation when visiting
-            Osaka. The excitement of the city center is only away. With its
-            convenient location, the property offers easy access to the city’s
-            must-see destinations.{" "}
+            Whether you’re a tourist or traveling on business, Akpe Na Mawu
+            Hospitality Centre is a great choice for accommodation when visiting
+            Keta in the Volta Region. The excitement of the city center is only
+            away. With its convenient location, the property offers easy access
+            to the city’s must-see destinations.{" "}
           </p>
           <p className="text-gray-500 text-base md:text-lg my-3">
             {" "}
-            Hotel WBF is renowned for its quality services and friendly staff,
-            and Hotel WBF Kitasemba WEST lives up to expectations. Facilities
-            like free Wi-Fi in all rooms, 24-hour security, daily housekeeping,
-            laundromat, taxi service are readily available for the convenience
-            of each guest.
+            Akpe Na Mawu Hospitality Centre is renowned for its quality services
+            , and we lives up to expectations. Facilities like free Wi-Fi in all
+            rooms, 24-hour security, daily housekeeping, laundromat, taxi
+            service are readily available for the convenience of each guest.
           </p>
           <p className="text-gray-500 text-base md:text-lg">
             {" "}
@@ -49,8 +48,9 @@ const About = () => {
             rooms include humidifier, complimentary tea, towels, clothes rack,
             slippers to help guests recharge after a long day. The property’s
             host of recreational offerings ensures you have plenty to do during
-            your stay. Hotel WBF Kitasemba WEST is a smart choice for travelers
-            to Osaka, offering a relaxed and hassle-free stay every time.
+            your stay. Akpe Na Mawu Hospitality Centre is a smart choice for
+            travelers to Osaka, offering a relaxed and hassle-free stay every
+            time.
           </p>
 
           <div className="h-0.5 w-full bg-gray-100 my-8"></div>
